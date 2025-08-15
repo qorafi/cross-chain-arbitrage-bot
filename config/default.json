@@ -1,0 +1,21 @@
+{
+  "chainA": {
+    "name": "Ethereum",
+    "wormholeChainId": 2,
+    "dexRouterAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "wormholeTokenBridgeAddress": "0x0290FB167208Af455bB137780163b7B7a9a10C16",
+    "usdcAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  "chainB": {
+    "name": "Polygon",
+    "wormholeChainId": 5,
+    "dexRouterAddress": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "wormholeTokenBridgeAddress": "0x0290FB167208Af455bB137780163b7B7a9a10C16",
+    "usdcAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+  },
+  "tradeSettings": {
+    "tokenToTradeAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "tradeAmountUSD": 1000,
+    "profitThresholdPercentage": 0.5
+  }
+}
