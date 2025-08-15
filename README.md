@@ -80,12 +80,12 @@ npm install
 Set up environment variables:
 Create a file named .env in the root of the project and add the following variables. Never commit this file to GitHub.
 
-# Your wallet's private key (without the '0x' prefix)
+### Your wallet's private key (without the '0x' prefix)
 PRIVATE_KEY="YOUR_WALLET_PRIVATE_KEY"
 
-# RPC Provider URLs
-# CHAIN_A_RPC_URL="https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
-# CHAIN_B_RPC_URL="https://polygon-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+## RPC Provider URLs
+### CHAIN_A_RPC_URL="https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+### CHAIN_B_RPC_URL="https://polygon-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
 
 # Configuration
 All trading parameters are located in config/default.json. Here you can define which tokens, DEXs, and bridges to use, as well as the profitability threshold.
@@ -108,7 +108,7 @@ All trading parameters are located in config/default.json. Here you can define w
   }
 }
 ```
-# Usage
+## Usage
 To start the bot, run the following command from the project's root directory:
 
 npm start
