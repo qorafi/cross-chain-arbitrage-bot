@@ -1,0 +1,22 @@
+{
+  "name": "cross-chain-arbitrage-bot",
+  "version": "1.0.0",
+  "description": "A bot to find and execute cross-chain arbitrage opportunities.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "arbitrage",
+    "blockchain",
+    "ethereum",
+    "polygon",
+    "ethers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  }
+}
