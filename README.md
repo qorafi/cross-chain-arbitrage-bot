@@ -84,10 +84,10 @@ Create a file named .env in the root of the project and add the following variab
 PRIVATE_KEY="YOUR_WALLET_PRIVATE_KEY"
 
 # RPC Provider URLs
-CHAIN_A_RPC_URL="https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
-CHAIN_B_RPC_URL="https://polygon-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+# CHAIN_A_RPC_URL="https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+# CHAIN_B_RPC_URL="https://polygon-mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
 
-Configuration
+# Configuration
 All trading parameters are located in config/default.json. Here you can define which tokens, DEXs, and bridges to use, as well as the profitability threshold.
 ```bash
 {
@@ -108,7 +108,7 @@ All trading parameters are located in config/default.json. Here you can define w
   }
 }
 ```
-## Usage
+# Usage
 To start the bot, run the following command from the project's root directory:
 
 npm start
