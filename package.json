@@ -1,10 +1,10 @@
 {
-  "name": "cross-chain-arbitrage-bot",
+  "name": "cross-chain-arbitrage-bot-ui",
   "version": "1.0.0",
-  "description": "A bot to find and execute cross-chain arbitrage opportunities.",
-  "main": "src/main.js",
+  "description": "A bot with a web UI to find and execute cross-chain arbitrage opportunities.",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node server.js"
   },
   "keywords": [
     "arbitrage",
@@ -17,6 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
   }
 }
