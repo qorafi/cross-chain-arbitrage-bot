@@ -36,25 +36,28 @@ A clean and modular structure is used to separate the different parts of the app
 
 ```
 ├── src/
-│   ├── main.js             # Main entry point, contains the primary monitoring loop.
+│   ├── main.js             # (This will be replaced by server.js)
 │   ├── services/
-│   │   ├── blockchain.js   # Handles connections to RPC providers and ethers.js setup.
-│   │   ├── dex.js          # Functions for interacting with DEX smart contracts (e.g., getting prices).
-│   │   └── bridge.js       # Functions for interacting with cross-chain bridge contracts.
+│   │   ├── blockchain.js
+│   │   ├── dex.js
+│   │   └── bridge.js
 │   ├── core/
-│   │   ├── arbitrage.js    # The core logic for checking profitability and executing trades.
-│   │   └── transactions.js # Helper functions for building and sending transactions.
+│   │   ├── arbitrage.js    # (Will be modified)
+│   │   └── transactions.js
 │   └── utils/
-│       └── logger.js       # Utility for logging messages to the console.
+│       └── logger.js       # (Will be modified)
+│
+├── public/                 # <-- NEW FOLDER
+│   ├── index.html          # <-- NEW FILE (The UI)
+│   └── main.js             # <-- NEW FILE (Client-side logic)
 │
 ├── config/
-│   └── default.json        # Configuration for tokens, contracts, and thresholds.
+│   └── default.json
 │
-├── .env                    # Environment variables (API keys, private key).
-├── .gitignore              # Files to be ignored by Git.
-├── package.json            # Project dependencies and scripts.
-└── README.md               # This file.
-
+├── .env
+├── package.json            # (Will be modified)
+├── server.js               # <-- NEW FILE (Our new entry point)
+└── README.md
 ```
 
 ## Getting Started
